@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1> Milestone: 5 Unique Path And Sharalble Link Task Part 1 By Ammad Amin</h1>
+    <form id="resumeform">
+      <!-- Personal Information -->
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <!-- <label for="username">Resume URL:</label>
+        <input type="text" name="username" id="username" required> <br>  -->
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required /> <br />
+
+        <label for="fathername">Father's Name:</label>
+        <input type="text" name="fathername" id="fathername" required /> <br />
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" required />
+      </fieldset>
+
+
+       <!-- Profile Picture  -->
+        <fieldset>
+          <legend>Profile Picture</legend>
+       <label for="profilePic">Profile Picture</label>
+       <input type="file" name="profilePic" id="profilePic" accept="image/" required>
+      </fieldset>
+
+
+      <!-- Education -->
+      <fieldset>
+        <legend>Education</legend>
+        <label for="education">Education:</label>
+        <textarea name="education" id="education" rows="4" required></textarea
+        ><br />
+      </fieldset>
+
+      <!-- Experince -->
+      <fieldset>
+        <legend>Experince</legend>
+        <label for="experince">Experince:</label>
+        <textarea name="experince" id="experince" rows="4" required></textarea
+        ><br />
+      </fieldset>
+
+      <!-- Skills -->
+      <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills:</label>
+        <textarea name="skills" id="skills" rows="4" required></textarea><br />
+      </fieldset>
+
+      <button type="submit" aria-placeholder="Generate Resume Below" >Generate Resume Blow</button>
+
+    </form>
+    
+    <div id="resumeOutput">
+      <!-- Resume Wil Be Generated Below -->
+    </div>
+
+    <script src="main.ts" defer></script>
+  </body>
+</html>
